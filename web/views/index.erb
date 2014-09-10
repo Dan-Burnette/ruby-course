@@ -1,0 +1,7 @@
+<% if defined? books %>
+	<ul>
+	<% books.each do |b| %>
+		<li> <%= b.name %> </li>
+	<% end %>
+	</ul>
+<% end %>
